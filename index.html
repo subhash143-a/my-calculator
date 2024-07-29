@@ -1,0 +1,48 @@
+<!DOCTYPE >
+<html>
+    <head>
+        <title>document</title>
+        <link href="calcu.css" type="text/css" rel="stylesheet">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="main-body">
+            <div class="calc">
+                <div class="output">
+                    <input id="screen" type="text">
+                </div>
+                <div class="bottons">
+                    <button class="btn" onclick="displayclear()">c</button>
+                    <div class="rows">
+                        <button class="btn" onclick="bottonclick(7)">7</button>
+                        <button class="btn" onclick="bottonclick(8)">8</button>
+                        <button class="btn" onclick="bottonclick(9)">9</button>
+                        <button class="btn" onclick="bottonclick('/')">/</button>
+
+                    </div>
+                    <div class="rows">
+                        <button class="btn" onclick="bottonclick(4)">4</button>
+                        <button class="btn" onclick="bottonclick(5)">5</button>
+                        <button class="btn" onclick="bottonclick(6)">6</button>
+                        <button class="btn" onclick="bottonclick('*')">*</button>
+
+                    </div>
+                    <div class="rows">
+                        <button class="btn" onclick="bottonclick(1)">1</button>
+                        <button class="btn" onclick="bottonclick(2)">2</button>
+                        <button class="btn" onclick="bottonclick(3)">3</button>
+                        <button class="btn" onclick="bottonclick('-')">-</button>
+
+                    </div>
+                    <div class="rows">
+                        <button class="btn" onclick="bottonclick('.')">.</button>
+                        <button class="btn" onclick="bottonclick('0')">0</button>
+                        <button class="btn" onclick="bottonclick('+')">+</button>
+                        <button class="btn" onclick="equalclick()">=</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
